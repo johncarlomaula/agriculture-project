@@ -8,7 +8,21 @@
 - Build a predictive model to recommend suitable crops for planting
 
 
-[View Project](https://github.com/johncarlomaula/agriculture-project/blob/main/agriculture.ipynb)
+### [View Project](https://github.com/johncarlomaula/agriculture-project/blob/main/agriculture.ipynb)
+
+##
+
+
+**Key Findings:**
+1. The k-means clustering algorithm did well in determining which crops share similar environmental conditions for growth with NPK ratios and humidity being the most distinguishing variables:
+    - One cluster is characterized by a **large ratio of nitrogen content in the soil** and consists of watermelon, cotton, coffee, banana, jute, rice, muskmelon, and maize.
+    - Another cluster is characterized by a **moderate ratio of phosphorus content** with **low humidity** and consists of lentil, moth beans, chickpea, kidney beans, mango, black gram, and pigeon peas.
+    - Another cluster is characterized by a **large ratio of phosphorus and potassium content** and consists of grapes and apples.
+    - The final cluster is characterized is characterized by a **low ratio of nitrogen, phosphorus, and potassium content** with **high humidity** and consists of pomegranate, mung bean, orange, coconut and papaya. 
+2. The random forest model did well in predicting suitable crops to plant based on a given set of conditions with almost perfect accuracy, but the dataset used in this analysis might not be representative of farming conditions around the world.
+3. This process could be useful for precision agriculture with the potential to increase farming efficiency and yield.
+
+
 
 ## 
 
